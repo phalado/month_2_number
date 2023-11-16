@@ -1,13 +1,131 @@
 AllCops:
   TargetRubyVersion: 2.6
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
+Layout/DotPosition:
+  EnforcedStyle: leading
 
-Style/StringLiteralsInInterpolation:
+Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
-  EnforcedStyle: double_quotes
+
+Layout/FirstArrayElementIndentation:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
 
 Layout/LineLength:
   Max: 120
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Layout/MultilineOperationIndentation:
+  Enabled: false
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: false
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: false
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  CountComments: false
+  Max: 200
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Security/YAMLLoad:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: true
+
+Style/WordArray:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
