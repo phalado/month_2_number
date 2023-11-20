@@ -1,5 +1,7 @@
 require 'yaml'
 
+require_relative "month_2_number/version"
+
 module Month2Number
   FILE_NAME = "month_2_number/months.yml".freeze
 
