@@ -6,11 +6,13 @@ module Month2Number
   class Error < StandardError; end
 
   def self.parse(month_name)
-    data[month_name.downcase]
+    data[month_name.try(:downcase)]
   end
 
   def self.data
-    yaml_data = File.read(File.expand_path(FILE_NAME, __dir__))
-    YAML.safe_load(yaml_data)
+    @data ||= begin
+      yaml_data = File.read(File.expand_path(FILE_NAME, __dir__))
+      YAML.safe_load(yaml_data)
+    end
   end
 end
