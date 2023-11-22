@@ -16,4 +16,18 @@ RSpec.describe Month2Number do
       expect(subject).to eq 1
     end
   end
+
+  context 'month name type validation' do
+    context 'type integer' do
+      let(:month_name) { 1 }
+
+      it { expect(subject).to be_nil }
+    end
+
+    context 'type nil' do
+      let(:month_name) { nil }
+
+      it { expect(subject).to be_nil }
+    end
+  end
 end
