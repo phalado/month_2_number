@@ -6,7 +6,9 @@ module Month2Number
   class Error < StandardError; end
 
   def self.parse(month_name)
-    data[month_name.try(:downcase)]
+    return nil unless month_name.is_a? String
+
+    data[month_name.downcase]
   end
 
   def self.data
