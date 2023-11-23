@@ -130,7 +130,7 @@
   'setembro': 9, # Portuguese
   'september': 9, # English, German, Latim, Dutch
   'septiembre': 9, # Spanish
-  'setiembre': 9: # Latam Spanish
+  'setiembre': 9, # Latam Spanish
   'septembre': 9, # French
   'сентя́брь': 9, # Russian
   'sentjábrʹ': 9, # Russian
