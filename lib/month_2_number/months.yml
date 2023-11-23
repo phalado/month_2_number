@@ -119,6 +119,7 @@
   'aout': 8, # French
   'а́вгуст': 8, # Russian
   'ávgust': 8, # Russian
+  'avgust': 8, # Russian
   'augustus': 8, # Latim, Dutch
   '八月': 8, # Japanese, Chinese
   'hachigatsu': 8, # Japanese
@@ -129,13 +130,14 @@
   'setembro': 9, # Portuguese
   'september': 9, # English, German, Latim, Dutch
   'septiembre': 9, # Spanish
+  'setiembre': 9: # Latam Spanish
   'septembre': 9, # French
   'сентя́брь': 9, # Russian
   'sentjábrʹ': 9, # Russian
   'sentjabr': 9, # Russian
   '九月': 9, # Japanese, Chinese
   'kugatsu': 9, # Japanese
-  'setembre': 9, # Italian
+  'settembre': 9, # Italian
   'jiuyuê': 9, # Chinese
   'jiuyue': 9, # Chinese
 
