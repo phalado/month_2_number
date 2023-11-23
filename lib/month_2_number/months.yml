@@ -1,60 +1,190 @@
 {
-  'janvier': 1,
-  'januar': 1,
-  'janeiro': 1,
-  'enero': 1,
-  'january': 1,
-  'février': 2,
-  'fevrier': 2,
-  'februar': 2,
-  'fevereiro': 2,
-  'febrero': 2,
-  'february': 2,
-  'mars': 3,
-  'märz': 3,
-  'marz': 3,
-  'março': 3,
-  'marco': 3,
-  'marzo': 3,
-  'march': 3,
-  'avril': 4,
-  'april': 4,
-  'abril': 4,
-  'mai': 5,
-  'maio': 5,
-  'mayo': 5,
-  'may': 5,
-  'juin': 6,
-  'juni': 6,
-  'junho': 6,
-  'junio': 6,
-  'june': 6,
-  'juillet': 7,
-  'juli': 7,
-  'julho': 7,
-  'julio': 7,
-  'july': 7,
-  'août': 8,
-  'aout': 8,
-  'august': 8,
-  'agosto': 8,
-  'septembre': 9,
-  'september': 9,
-  'setembro': 9,
-  'septiembre': 9,
-  'octobre': 10,
-  'oktober': 10,
-  'outubro': 10,
-  'octubre': 10,
-  'october': 10,
-  'novembre': 11,
-  'november': 11,
-  'novembro': 11,
-  'noviembre': 11,
-  'décembre': 12,
-  'decembre': 12,
-  'dezember': 12,
-  'dezembro': 12,
-  'diciembre': 12,
-  'december': 12
+  # January
+  'janeiro': 1, # Portuguese
+  'january': 1, # English
+  'enero': 1, # Spanish
+  'janvier': 1, # French
+  'januar': 1, # German
+  'янва́рь': 1, # Russian
+  'janvárʹ': 1, # Russian
+  'janvar': 1, # Russian
+  'ianuarius': 1, # Latim
+  '一月': 1, # Japanese, Chinese
+  'ichigatsu': 1, # Japanese
+  'januari': 1, # Dutch
+  'gennaio': 1, # Italian
+  'yiyuê': 1, # Chinese
+  'yiyue': 1, # Chinese
+
+  # February
+  'fevereiro': 2, # Portuguese
+  'february': 2, # English
+  'febrero': 2, # Spanish
+  'février': 2, # French
+  'fevrier': 2, # French
+  'februar': 2, # German
+  'февра́ль': 2, # Russian
+  'fevrálʹ': 2, # Russian
+  'fevral': 2, # Russian
+  'februarius': 2, # Latim
+  '二月': 2, # Japanese, Chinese
+  'nigatsu': 2, # Japanese
+  'februari': 2, # Dutch
+  'febbraio': 2, # Italian
+  'eryuê': 2, # Chinese
+  'eryue': 2, # Chinese
+
+  # March
+  'março': 3, # Portuguese
+  'marco': 3, # Portuguese
+  'march': 3, # English
+  'marzo': 3, # Spanish, Italian
+  'mars': 3, # French
+  'märz': 3, # German
+  'marz': 3, # German
+  'март': 3, # Russian
+  'mart': 3, # Russian
+  'martius': 3, # Latim
+  '三月': 3, # Japanese, Chinese
+  'sangatsu': 3, # Japanese
+  'maart': 3, # Dutch
+  'sanyuê': 3, # Chinese
+  'sanyue': 3, # Chinese
+
+  # April
+  'abril': 4, # Portuguese, Spanish
+  'april': 4, # English, German, Dutch
+  'avril': 4, # French
+  'апре́ль': 4, # Russian
+  'aprélʹ': 4, # Russian
+  'aprel': 4, # Russian
+  'aprilis': 4, # Latim
+  '四月': 4, # Japanese, Chinese
+  'shigatsu': 4, # Japanese
+  'aprile': 4, # Italian
+  'siyuê': 4, # Chinese
+  'siyue': 4, # Chinese
+
+  # May
+  'maio': 5, # Portuguese
+  'may': 5, # English
+  'mayo': 5, # Spanish
+  'mai': 5, # French, German
+  'май': 5, # Russian
+  'maj': 5, # Russian
+  'maius': 5, # Latim
+  '五月': 5, # Japanese, Chinese
+  'gogatsu': 5, # Japanese
+  'mei': 5, # Dutch
+  'maggio': 5, # Italian
+  'wuyuê': 5, # Chinese
+  'wuyue': 5, # Chinese
+
+  # June
+  'junho': 6, # Portuguese
+  'june': 6, # English
+  'junio': 6, # Spanish
+  'juin': 6, # French
+  'juni': 6, # German, Dutch
+  'июнь': 6, # Russian
+  'ijunʹ': 6, # Russian
+  'ijun': 6, # Russian
+  'junius': 6, # Latim
+  '六月': 6, # Japanese, Chinese
+  'rokugatsu': 6, # Japanese
+  'giugno': 6, # Italian
+  'liuyuê': 6, # Chinese
+  'liuyue': 6, # Chinese
+
+  # July
+  'julho': 7, # Portuguese
+  'july': 7, # English
+  'julio': 7, # Spanish
+  'juillet': 7, # French
+  'juli': 7, # German, Dutch
+  'ию́ль': 7, # Russian
+  'ijúlʹ': 7, # Russian
+  'ijul': 7, # Russian
+  'julius': 7, # Latim
+  '七月': 7, # Japanese, Chinese
+  'shichigatsu': 7, # Japanese
+  'luglio': 7, # Italian
+  'qiyuê': 7, # Chinese
+  'qiyue': 7, # Chinese
+
+  # August
+  'agosto': 8, # Portuguese, Spanish, Italian
+  'august': 8, # English, German
+  'août': 8, # French
+  'aout': 8, # French
+  'а́вгуст': 8, # Russian
+  'ávgust': 8, # Russian
+  'avgust': 8, # Russian
+  'augustus': 8, # Latim, Dutch
+  '八月': 8, # Japanese, Chinese
+  'hachigatsu': 8, # Japanese
+  'bayuê': 8, # Chinese
+  'bayue': 8, # Chinese
+
+  # September
+  'setembro': 9, # Portuguese
+  'september': 9, # English, German, Latim, Dutch
+  'septiembre': 9, # Spanish
+  'setiembre': 9, # Latam Spanish
+  'septembre': 9, # French
+  'сентя́брь': 9, # Russian
+  'sentjábrʹ': 9, # Russian
+  'sentjabr': 9, # Russian
+  '九月': 9, # Japanese, Chinese
+  'kugatsu': 9, # Japanese
+  'settembre': 9, # Italian
+  'jiuyuê': 9, # Chinese
+  'jiuyue': 9, # Chinese
+
+  # October
+  'outubro': 10, # Portuguese
+  'october': 10, # English, Latim
+  'octubre': 10, # Spanish
+  'octobre': 10, # French
+  'oktober': 10, # German, Dutch
+  'октя́брь': 10, # Russian
+  'oktjábrʹ': 10, # Russian
+  'oktjabr': 10, # Russian
+  '十月': 10, # Japanese, Chinese
+  'jūgatsu': 10, # Japanese
+  'jugatsu': 10, # Japanese
+  'ottobre': 10, # Italian
+  'shiyuê': 10, # Chinese
+  'shiyue': 10, # Chinese
+
+  # November
+  'novembro': 11, # Portuguese
+  'november': 11, # English, German, Latim, Dutch
+  'noviembre': 11, # Spanish
+  'novembre': 11, # French, Italian
+  'ноя́брь': 11, # Russian
+  'nojábrʹ': 11, # Russian
+  'nojabr': 11, # Russian
+  '十一月': 11, # Japanese, Chinese
+  'jūichigatsu': 11, # Japanese
+  'juichigatsu': 11, # Japanese
+  'shi-yiyuê': 11, # Chinese
+  'shi-yiyue': 11, # Chinese
+
+  # December
+  'dezembro': 12, # Portuguese
+  'december': 12, # English, Latim, Dutch
+  'diciembre': 12, # Spanish
+  'décembre': 12, # French
+  'decembre': 12, # French
+  'dezember': 12, # German
+  'дека́брь': 12, # Russian
+  'dekábrʹ': 12, # Russian
+  'dekabr': 12, # Russian
+  '十二月': 12, # Japanese, Chinese
+  'jūnigatsu': 12, # Japanese
+  'junigatsu': 12, # Japanese
+  'dicembre': 12, # Italian
+  'shi-eryuê': 12, # Chinese
+  'shi-eryue': 12, # Chinese
 }

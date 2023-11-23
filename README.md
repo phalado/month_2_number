@@ -55,6 +55,14 @@ When entering a month name, try to spell it correctly. However, you don't need t
   - English
   - Spanish
   - French
+  - German
+- V 0.2.2
+  - Russian
+  - Latim
+  - Japanese
+  - Dutch
+  - Italian
+  - Chinese
 
 ## Development
 
